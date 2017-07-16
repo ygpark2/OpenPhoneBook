@@ -5,7 +5,7 @@ import { Post } from '../core/post.model';
 @Component({
   selector: 'app-post-details-card',
   templateUrl: './post-details-card.component.html',
-  styleUrls: ['./post-details-card.component.css']
+  styleUrls: ['./post-details-card.component.scss']
 })
 export class PostDetailsCardComponent implements OnInit, OnChanges {
 

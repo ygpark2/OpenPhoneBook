@@ -7,7 +7,7 @@ import { PostService } from '../core/post.service';
 @Component({
   selector: 'app-edit-post',
   templateUrl: './edit-post.component.html',
-  styleUrls: ['./edit-post.component.css']
+  styleUrls: ['./edit-post.component.scss']
 })
 export class EditPostComponent implements OnInit, OnDestroy {
   data: Post = { title: '', content: '' };
